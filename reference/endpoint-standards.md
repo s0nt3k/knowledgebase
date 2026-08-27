@@ -1,7 +1,3 @@
-Here’s a **complete, GitHub‑ready “Endpoint Standards” document** for your repository — formatted in Markdown, structured for clarity, and aligned with your security‑focused, enterprise‑grade knowledgebase style. It defines supported endpoints, configuration baselines, and compliance expectations.
-
----
-
 # 🖥 **Endpoint Standards Documentation**
 
 
