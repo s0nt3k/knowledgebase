@@ -179,11 +179,3 @@ All contributions must follow:
 
 ---
 
-## 🔗 Next Step  
-I can generate **fully formatted GitHub pages** for any section above.
-
-Choose one:
-
-- **Generate a full onboarding section**  
-- **Generate endpoint standards documentation**  
-- **Generate network configuration templates**
