@@ -1,4 +1,4 @@
-# 📘 Private, Small Business, Enterprise IT, Security & Compliance Knowledgebase  
+# 📘 s0nt3k's Knowledgebase  
 
 
 
