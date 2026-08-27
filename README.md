@@ -1,36 +1,29 @@
-# 📘 s0nt3k's Knowledgebase  
+# **s0nt3k’s Knowledgebase**  
+A centralized, engineer‑friendly knowledgebase documenting the essential foundations of **information technology**, **information security**, **regulatory compliance**, **enterprise systems**, **best‑practice standardization**, **supported endpoints**, **network configurations**, **onboarding forms**, **operational documentation**, and **continuity resources** for:
 
-
-
-
-A centralized, engineer‑friendly knowledgebase documenting the essential foundations of **information technology**, **information security**, **regulatory compliance**, and **enterprise systems** for:
-
-- Small Business Administration (SBA) environments  
-- Home offices and remote‑work infrastructures  
-- Real estate settlement and escrow services  
-- Private individuals requiring continuity, security, and privacy  
-
-This repository consolidates fragmented technical knowledge into a **single authoritative reference** designed for clarity, accuracy, and operational reliability.
-
----
-
-## 🧱 Purpose  
-This knowledgebase exists to provide a **structured, version‑controlled, engineering‑grade** reference for critical technical domains. It eliminates reliance on scattered documents, outdated PDFs, tribal knowledge, and inconsistent internal notes.
-
-The repository is built for:
-
-- Systems engineers  
-- Security professionals  
-- Compliance officers  
-- Enterprise architects  
-- Real estate settlement service operators  
+- SBA organizations  
+- Home offices  
+- Real estate settlement services  
 - Privacy‑focused individuals  
-- Homelab builders modeling enterprise environments  
+
+
+
+
 
 ---
 
-## 🧩 Core Topics  
-Each section is organized into clear, technical reference pages with diagrams, tables, and examples.
+## 🧱 **Purpose of This Knowledgebase**  
+This repository exists to provide a **single authoritative reference** for technical, security, compliance, and operational documentation across diverse environments. It eliminates fragmented notes, outdated PDFs, tribal knowledge, and inconsistent standards by offering:
+
+- Engineering‑grade documentation  
+- Standardized best practices  
+- Repeatable operational processes  
+- Secure, compliant configuration templates  
+- Continuity and privacy resources  
+
+---
+
+## 🧩 **Core Domains Covered**
 
 ### 🖥 Information Technology  
 - **Infrastructure**  
@@ -39,6 +32,12 @@ Each section is organized into clear, technical reference pages with diagrams, t
 - **Storage**  
 - **Operating Systems**  
 
+
+
+
+
+---
+
 ### 🔐 Information Security  
 - **Access Control**  
 - **Encryption**  
@@ -46,10 +45,18 @@ Each section is organized into clear, technical reference pages with diagrams, t
 - **Monitoring & Logging**  
 - **Incident Response**  
 
+
+
+
+
+---
+
 ### 📜 Regulatory Compliance  
 - **NIST Guidelines**  
 - **SBA Requirements**  
 - **Federal & Industry Standards**  
+
+---
 
 ### 🏢 Enterprise Systems  
 - **Identity & Access Management**  
@@ -57,14 +64,27 @@ Each section is organized into clear, technical reference pages with diagrams, t
 - **Application Architecture**  
 - **Integration Patterns**  
 
-### 🌐 Network Addressing & Subnet Architecture  
+---
+
+## 🔧 **Best‑Practice Standardization**  
+This knowledgebase includes standardized documentation for:
+
+- **Endpoint support matrices**  
+- **Approved hardware lists**  
+- **Network configuration standards**  
+- **Security baselines**  
+- **Operational SOPs**  
 
 
 
 
-This repository includes detailed documentation for:
 
-- Private IP address pools  
+---
+
+## 🌐 **Network Addressing & Subnet Architecture**  
+Includes detailed documentation for:
+
+- Private IP pools  
 - CIDR notation  
 - Subnet masks  
 - Network IDs  
@@ -82,9 +102,24 @@ This repository includes detailed documentation for:
 
 ---
 
-## 🔐 Security & Privacy Focus  
-This knowledgebase is built for environments where **continuity, security, and privacy** are non‑negotiable.  
-It includes guidance for:
+## 📝 **Onboarding Forms & Operational Documents**  
+This repository includes templates and standardized documents for:
+
+- **Employee onboarding**  
+- **System provisioning**  
+- **Access request workflows**  
+- **Compliance attestations**  
+- **Continuity & disaster recovery**  
+
+
+
+
+
+---
+
+## 🔐 **Security & Privacy Focus**  
+Designed for environments where **continuity, security, and privacy** are non‑negotiable.  
+Includes guidance for:
 
 - Secure home office setups  
 - Real estate settlement data protection  
@@ -94,13 +129,15 @@ It includes guidance for:
 
 ---
 
-## 📁 Repository Structure  
+## 📁 **Repository Structure**
 ```
 /docs
     /networking
     /security
     /compliance
     /enterprise-systems
+    /standardization
+    /onboarding
     /continuity
     /privacy
 
@@ -108,9 +145,13 @@ It includes guidance for:
     ip-addressing.md
     subnet-architecture.md
     compliance-frameworks.md
+    endpoint-standards.md
+    network-configurations.md
 
-/scripts
-    (optional future automation)
+/forms
+    onboarding/
+    access-requests/
+    compliance/
 
 .gitignore
 LICENSE
@@ -119,14 +160,12 @@ README.md
 
 ---
 
-## 📜 License  
-This repository is licensed under **CC BY‑NC 4.0**, which allows sharing and modification while prohibiting commercial use.
-
-If you want to switch to MIT or CC BY, I can generate those files too.
+## 📜 **License**  
+This repository is licensed under **CC BY‑NC 4.0**, allowing sharing and modification while prohibiting commercial use.
 
 ---
 
-## 🧭 Contributing  
+## 🧭 **Contributing**  
 Contributions are welcome from engineers, auditors, architects, and privacy‑focused individuals.  
 All contributions must follow:
 
@@ -136,11 +175,11 @@ All contributions must follow:
 
 ---
 
-## 🔗 Next Steps  
-Choose what you want next:
+## 🔗 Next Step  
+I can generate **fully formatted GitHub pages** for any section above.
 
-- **Generate a full .gitignore**  
-- **Generate LICENSE file content**  
-- **Create a category index page**  
+Choose one:
 
-If you want this README expanded with diagrams, tables, or Obsidian‑optimized formatting, just tell me.
+- **Generate a full onboarding section**  
+- **Generate endpoint standards documentation**  
+- **Generate network configuration templates**
