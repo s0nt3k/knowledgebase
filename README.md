@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="[YOUR_SELECTED_IMAGE_URL](https://chatgpt.com/backend-api/estuary/content?id=file_00000000b22481fd9906341f884ea79f&ts=496617&p=fs&cid=1&sig=cbe41816402fb0fd622edf4af96e1180e7dd02ad560f92f1c85a5eb30e6169c4&v=0)" alt="s0nt3k's Knowledgebase Banner" height="200">
+</p>
+
 # **s0nt3k’s Knowledgebase**  
 A centralized, engineer‑friendly knowledgebase documenting the essential foundations of **information technology**, **information security**, **regulatory compliance**, **enterprise systems**, **best‑practice standardization**, **supported endpoints**, **network configurations**, **onboarding forms**, **operational documentation**, and **continuity resources** for:
 
