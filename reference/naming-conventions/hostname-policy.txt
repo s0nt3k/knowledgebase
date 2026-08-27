@@ -1,0 +1,198 @@
+🖥 Hostname Policy Document
+A standardized hostname policy ensures consistency, predictability, and automation‑readiness across all systems managed under s0nt3k’s Knowledgebase.
+This policy applies to servers, endpoints, network devices, virtual machines, appliances, and mission‑critical systems across SBA organizations, home offices, real estate settlement services, and privacy‑focused individuals.
+
+📘 Purpose of This Policy
+This hostname policy exists to:
+
+Ensure operational clarity
+
+Support asset tracking
+
+Improve security auditing
+
+Enable automation compatibility
+
+Maintain compliance documentation
+
+Provide a single authoritative naming standard for all environments
+
+🧱 Hostname Format Overview (15 Characters Total)
+All hostnames must follow this exact structure:
+
+Code
+CCCC OOOO DD X R IIIII
+Actual hostname (no spaces):
+
+Code
+CCCCOOOODDXRIIIII
+Where:
+
+Segment	Length	Description
+CCCC	4	Customer HEX ID
+OOOO	4	Operating System ID
+DD	2	Device Type
+X	1	Criticality Code
+R	1	Redundancy Level
+IIIII	5	Unique Identifier
+
+
+🔢 Customer HEX ID (CCCC)
+A 4‑digit hexadecimal identifier assigned per customer, tenant, site, or environment.
+
+Examples:
+
+A12F
+
+C0DE
+
+9B33
+
+0FAB
+
+Used for:
+
+Multi‑tenant separation
+
+Inventory grouping
+
+Automation scoping
+
+🖥 Operating System ID (OOOO)
+A 4‑character OS family code.
+
+OS	Code
+Windows	WINW
+Windows Server	WINS
+Linux (Generic)	LNXG
+Ubuntu	UBNT
+Red Hat / CentOS	RHAT
+macOS	MACO
+iOS	IOSM
+Android	ANDR
+ESXi / VMware	ESXI
+Network OS	NETO
+
+
+🧩 Device Type (DD)
+A 2‑character device category.
+
+Device Type	Code
+Workstation	WS
+Laptop	LT
+Server	SV
+Virtual Machine	VM
+Firewall	FW
+Switch	SW
+Access Point	AP
+Mobile Device	MB
+Storage Appliance	ST
+Hypervisor Host	HV
+
+
+🔥 Criticality Code (X)
+A single digit representing the system’s operational importance and data sensitivity.
+
+Code	Classification	Description
+0	Standard Workstation	Non‑critical user workstation
+1	Sensitive Data System	Handles PII, PHI, escrow, financial data
+2	Public‑Facing System	Exposed to the internet; hardened perimeter
+3	Mission‑Critical System	Outage impacts continuity or compliance
+4	Life‑Safety / Emergency	Systems protecting life or safety
+
+
+🔁 Redundancy Level (R)
+A single letter indicating the redundancy architecture.
+
+Letter	Level	Description
+A	None	Single device; no redundancy
+B	Basic	Local backups; no failover
+C	Clustered	HA cluster (2+ nodes)
+D	Distributed	Multi‑site or multi‑region
+E	Enterprise HA	Failover + replication + DR site
+F	Fault‑Tolerant	Hot‑hot systems; zero downtime
+
+
+🔑 Unique Identifier (IIIII)
+A 5‑character alphanumeric identifier ensuring uniqueness.
+
+Recommended formats:
+
+Sequential: 00001
+
+Alphanumeric: A1023
+
+Role‑based: SRV01
+
+Database: DB001
+
+User device: USR42
+
+🧪 Valid Hostname Examples
+Hostname	Meaning
+A12FWINSV3E00001	Windows Server, mission‑critical, enterprise HA
+C0DELNXWS1B00A42	Linux workstation, sensitive data, basic redundancy
+9B33NETFW2D01DB2	Firewall, public‑facing, distributed redundancy
+
+
+🧰 Validation Requirements
+Hostname MUST:
+Be exactly 15 characters
+
+Match the full regex pattern
+
+Use only allowed codes from this policy
+
+Be globally unique within the customer HEX namespace
+
+Hostname MUST NOT:
+Contain hyphens, spaces, or special characters
+
+Reuse identifiers across different devices
+
+Use unapproved OS or device codes
+
+🧩 Hostname Validation Regex
+regex
+^[A-Fa-f0-9]{4}[A-Za-z0-9]{4}[A-Za-z0-9]{2}[0-4][A-F][A-Za-z0-9]{5}$
+Named‑group version:
+
+regex
+^(?<cust>[A-Fa-f0-9]{4})(?<os>[A-Za-z0-9]{4})(?<dev>[A-Za-z0-9]{2})(?<crit>[0-4])(?<red>[A-F])(?<id>[A-Za-z0-9]{5})$
+🧭 Governance & Lifecycle
+Creation
+Hostnames are assigned during onboarding
+
+Must be validated using the regex
+
+Must be recorded in the asset inventory system
+
+Modification
+Hostnames cannot be changed after assignment
+
+Exceptions require approval from IT governance
+
+Decommissioning
+Hostnames are retired but never reused
+
+Unique IDs remain permanently reserved
+
+📜 Compliance Requirements
+This hostname policy supports:
+
+Security baselines
+
+Operational SOPs
+
+Network configuration standards
+
+Endpoint support matrices
+
+🔗 Related Documents
+Naming Conventions
+
+Endpoint Standards
+
+Network Configuration Templates
+
+Onboarding Forms
